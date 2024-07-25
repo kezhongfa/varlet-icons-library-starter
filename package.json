@@ -1,8 +1,7 @@
 {
-  "name": "@varlet/icons-library-starter",
-  "version": "0.0.9",
+  "name": "@wujifa/icons-library",
+  "version": "0.0.2",
   "type": "module",
-  "author": "haoziqaq <357229046@qq.com>",
   "description": "A icons library starter",
   "keywords": [
     "svg",
@@ -94,8 +93,11 @@
     "vite": "^5.3.1",
     "vue": "^3.4.29"
   },
-  "packageManager": "pnpm@8.7.5",
   "engines": {
-    "pnpm": ">=8.0"
+    "pnpm": ">=9.0"
+  },
+  "packageManager": "pnpm@9.0.5",
+  "publishConfig": {
+    "access": "public"
   }
 }
